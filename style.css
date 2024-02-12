@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.wrap {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #FCFCFC;
+}
+
+.conteiner {
+  max-width: 1600px;
+  min-height: 300px;
+  min-height: 100vh;
+  background-color: #1f96cd
+    
+    ;
+  overflow-x: hidden;
+}
+
+.Paje1 {
+  width: 100%;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.Paje1 .header {
+  width: 100%;
+  height: 100px;
+  padding: 0 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Paje1 .header .logo {
+  width: auto;
+  height: auto;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: black;
+}
+
+.Paje1 .header .logo p span {
+  color: #010100;}
+
+.Paje1 .header .servis {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 500px;
+}
+
+.Paje1 .header .servis .servises__home {
+  color: #100000
+   ;
+}
+
+.Paje1 .header .servis a {
+  text-decoration: none;
+  margin: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000
+   ;
+  display: inline-block;
+  position: relative;
+  margin-block: 2px;
+  animation-name: textinda;
+}
+
+.Paje1 .header .servis a::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #56597a;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .25s ease;
+}
+
+.Paje1 .header .servis a:hover::after {
+  transform: scaleX(1);
+}
+
+.Paje1 .header .header__burger {
+  cursor: pointer;
+}
+
+.Paje1 .main {
+  width: 100%;
+  display: flex;
+}
+
+.Paje1 .main .main__left {
+  width: 50%;
+  padding-left: 135px;
+  padding-top: 130px;
+}
+
+.Paje1 .main .mainleft .maintext-small {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: black;
+}
+
+.Paje1 .main .mainleft .maintext-small p {
+  position: relative;
+  bottom: 23px;
+  margin-left: 7px;
+}
+
+.Paje1 .main .mainleft .maintext-small .main__line {
+  width: 36px;
+  height: 3px;
+  background: black;
+}
+
+.Paje1 .main .main__left h1 {
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 74px;
+  color: #000020;
+}
+
+.Paje1 .main .mainleft .maindescription {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.Paje1 .main .mainleft .mainbtn {
+  width: 216px;
+  height: 66px;
+  background: black;
+  border-radius: 4px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 17px;
+  padding-left: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Paje1 .main .mainleft .mainbtn:hover {
+  background: #000000;
+  transition: 0.4s;
+}
+
+.Paje1 .main .main__right {
+  width: 50%;
+  height: auto;
+}
+
+.Paje1 .main .mainright .mainimg-big {
+  width: 507px;
+  height: 507px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.Paje2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 100px;
+}
+
+.Pjae-ilustation {
+  width: 100%;
+  height: auto;
+  margin-top: 200px;
+  padding: 0 135px;
+  display: flex;
+}
+
+.Pjae-ilustation .left-box {
+  width: 50%;
+  height: auto;
+}
